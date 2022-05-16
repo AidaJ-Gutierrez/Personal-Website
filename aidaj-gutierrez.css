@@ -11,6 +11,16 @@ nav {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+a {
+    color: darkgray;
+}
+a:hover{
+color: white;
+}
+
+.projecto a{
+    color: #012B36;
+}
 
 /*hero-section*/
 .hero{
@@ -99,6 +109,10 @@ nav {
 .projecto{
     height: 250px;
     width: 400px;
+
+}
+img {
+    border-radius: 5%;
 }
 
 /*contact section*/
