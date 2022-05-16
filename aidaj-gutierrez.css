@@ -7,7 +7,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
+
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -21,8 +21,9 @@ nav {
     display: block;
     margin: auto;
     text-align: center;
-    height: 60px;
-    width: 60px;
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
 
 }
 
@@ -41,23 +42,27 @@ nav {
 /*content section*/
 
 .hero-2{
-    height: 600px;
+    height: 700px ;
     background-color: lightgray;
     color: #012B36;
 }
 .bio{
     width: 25rem;
+    height: 600px;
     padding: 0.625rem;
+
     /*border-radius: 6px;*/
     /*box-shadow: 0px 2px 15px 2px ;*/
 }
 
 .bio h2 {
     text-align: center;
+    margin: 100px auto 25px;
 
 }
 .bio p{
     text-align: center;
+    margin: 100px 150px;
 
 }
 
@@ -71,31 +76,35 @@ nav {
 .skills{
     width: 25rem;
     padding: 0.625rem;
+
 }
 
-.skills h2{
-    margin-bottom: 40px;
-}
+/*.skills h2{*/
+/*    margin-bottom: 40px;*/
+/*}*/
 .fab{
     font-size: 80px;
-    margin: 20px
+    margin: 20px;
+
 }
 
 /*project section*/
 
-.projects{
+.project{
     height: 600px;
     text-align: center;
     background-color: lightgray;
     color: #012B36;
 }
-
+.projecto{
+    height: 250px;
+    width: 400px;
+}
 
 /*contact section*/
 .contact{
-    height: 600px;
+    height: 300px;
     text-align: center;
-
 }
 
 
@@ -103,6 +112,14 @@ nav {
 
 .footer{
     height: 75px;
-   margin-bottom: 20px;
+    position: sticky;
+    z-index: 1;
+    padding: 1.5rem 3.5rem;
+    background-color: lightgray;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 
+
+}
+.footer p{
+    align-self: center;
 }
